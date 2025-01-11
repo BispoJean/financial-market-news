@@ -2,8 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 
 class Site:
-    """This class will be imported in the main code. It is responsible to make the web scraping and retrieve the news and sites
-    """
     def __init__(self, site):
         self.site = site
         self.news = []
