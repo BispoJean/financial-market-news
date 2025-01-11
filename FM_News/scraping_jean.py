@@ -2,8 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 
 class Site:
+<<<<<<< HEAD
     """This class is resposible to make the webscraping, enabling the main code to operate
     """
+=======
+>>>>>>> 9a42ce12a5aef4942122e8b550b5805d955af7c3
     def __init__(self, site):
         self.site = site
         self.news = []
