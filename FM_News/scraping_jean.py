@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 class Site:
+    """This class is resposible to make the webscraping, enabling the main code to operate
+    """
     def __init__(self, site):
         self.site = site
         self.news = []
@@ -11,7 +13,7 @@ class Site:
                             "Investing.com"]
     
     def update_news(self):
-        '''Lê o site e entende o que é uma notícia e o que não é.'''
+        '''Reads the news'''
         
         if self.site == self.sites_todos[0]:
             url = 'https://finance.yahoo.com/'
