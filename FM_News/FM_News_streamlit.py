@@ -9,15 +9,14 @@ import streamlit as st
 import time
 from streamlit import session_state
 
-# Para rodar: streamlit run "c:/Users/jeana/github_projects/FM_News/FM_News_streamlit.py"
-# Adicionar o diretório ao sys.path
-caminho_arquivo = r'C:/Users/jeana/github_projects/FM_News/'
-sys.path.append(caminho_arquivo)
+# To run: streamlit run "your_path/FM_News/FM_News_streamlit.py"
+# Adding the directory to syspath
+# path of the other file 
+# path_file = r'your_path/FM_News/'
+#sys.path.append(path_file)
 
 # Agora você pode importar o módulo
 from scraping_jean import *
-
-os.chdir("C:/Users/jeana/github_projects/FM_News")
 
 class JeanNews:
     def __init__(self):
